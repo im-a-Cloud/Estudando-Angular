@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './primeiro-componente.component.css'
 })
 export class PrimeiroComponenteComponent {
+    title = 'Estudando-Angular';
     sobrenome: string = "Patriarca da família Gameplays"
 }

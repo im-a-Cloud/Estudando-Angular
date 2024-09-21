@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
-
 import { PrimeiroComponenteComponent } from './componentes/primeiro-componente/primeiro-componente.component';
 import { ParenteDataComponent } from './componentes/parente-data/parente-data.component';
 import { DiretivasComponent } from "./componentes/diretivas/diretivas.component";
@@ -21,7 +19,6 @@ import { TestandoRouteComponent } from './componentes/testando-route/testando-ro
   standalone: true,
   imports: [
     RouterOutlet,
-    AppRoutingModule,
     PrimeiroComponenteComponent,
     ParenteDataComponent,
     DiretivasComponent,
