@@ -1,0 +1,8 @@
+<p>two-way-data-binding works!</p>
+<form>
+    <input type="text" [(ngModel)]="usuario"
+    name="usuario"
+    placeholder="seu nome agui"> <!-- esse input faz com que o valor seja atualizado conforme o usuário entre com valores-->
+    <input type="submit" value="Enviar">
+</form>
+<p>O nome do cara é, {{ usuario }}</p>

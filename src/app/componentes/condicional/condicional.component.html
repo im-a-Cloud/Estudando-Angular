@@ -1,0 +1,7 @@
+<h1 *ngIf="segredo">OH DROGA, FUI DESCOBRERTO</h1>   <!-- se a condição for verdadeira ele irá mostrar essa mensagem-->
+<h2 *ngIf="name === 'alvaro' else NomeDiferente">animal</h2><!-- bloco com if e else onde a "variavel" depois do else é oque aponta
+qual trecho do codigo lida caso a condição seja falsa-->
+
+<ng-template #NomeDiferente> <!-- em resumo esse seria o bloco else, geramos um novo template que aparece caso a condição de mesmo nome seja falsa-->
+    <h1>Liquid snake</h1>
+</ng-template>

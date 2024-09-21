@@ -1,0 +1,12 @@
+<h2>Esses personagens são literalmente eu:</h2>
+<ul>
+    <li *ngFor="let Eu of literalmenteEu">{{Eu.nome}}, {{Eu.profissao}} 
+        <button (click)="mostrarIdade(Eu)">Idade:</button>
+        <button (click)="deletarPersonagem(Eu)">Deletar</button>
+    </li> <!-- laço for que percorre a lista definida no .ts e imprime seu conteúdo, 
+    separando pelos atributos, o botão tem um evento que chama a função de mostrar idade do personagem 
+    sempre que for clicado-->
+
+</ul>
+<h3>{{dadosPersonagem}}</h3>
+
